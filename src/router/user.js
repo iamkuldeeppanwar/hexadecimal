@@ -4,7 +4,7 @@ const userData = require("../data/userData");
 
 //Get All users
 router.get("/getUsers", function (req, res) {
-  res.send(userData);
+  res.json(userData);
 });
 
 module.exports = router;
